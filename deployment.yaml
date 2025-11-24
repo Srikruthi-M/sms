@@ -17,3 +17,5 @@ spec:
         image: kruthim/smsapplication:v1
         ports:
         - containerPort: 8100
+
+#made a change to test github actions
