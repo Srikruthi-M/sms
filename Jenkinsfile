@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "smsapplication:v1"          // Docker image name (without username, username added in commands)
-        DEPLOYMENT_NAME = "myapp-deployment"         // Kubernetes deployment name
+        DEPLOYMENT_NAME = "sms-deployment"         // Kubernetes deployment name
         NAMESPACE = "default"                        // Kubernetes namespace
     }
 
